@@ -1,0 +1,35 @@
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 294px;
+background-color: #fff;
+  .content{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    .option{
+       select{
+        background-color: #F3F3F3;
+        color: #585858;
+        border-radius: 10px;
+        padding: 10px 15px; 
+      }
+
+      .green{
+        color: #3A643B;
+        background-color: #DCEEDC;
+      }
+    } 
+    .line{
+      margin-top: 60px;
+      width: 100%;
+      color: #585858;
+    }
+  }
+}

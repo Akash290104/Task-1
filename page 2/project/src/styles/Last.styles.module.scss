@@ -1,0 +1,211 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  position: absolute;
+  width: 1440px;
+  // height: 600px;
+  left: 0px;
+  top: 400px;
+ background-color: #fff;
+  .bar {
+    margin-top: 30px;
+    width: 40%;
+    margin-left: 50%;
+    // background-color: red;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .box {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #eaf2ea;
+      color: #000000;
+      border-radius: 10px;
+      gap: 5px;
+      padding: 0px 15px;
+    }
+  }
+
+  .content {
+    margin-top: 90px;
+    width: 90%;
+    // height: 400px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    justify-content: space-between;
+
+    .doctors {
+      // display: flex;
+      width: 400px;
+      background-color: #fff7e2;
+      border-radius: 20px;
+      .details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .first {
+          margin-top: 20px;
+          position: relative;
+          width: 100%;
+          // height: 150p x;
+          // background-color: #3d1e1e;
+
+          .rating {
+            position: absolute;
+            display: flex;
+            background-color: black;
+            color: white;
+            font-style: 5px;
+            margin-top: 130px;
+            margin-left: 170px;
+            padding: 1px 10px;
+            border-radius: 20px;
+          }
+        }
+        .photo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 150px;
+          img {
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+          }
+        }
+      }
+
+      .name {
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        color: #000000;
+      }
+
+      .others {
+        margin-top: 30px;
+        margin-left: 20%;
+        width: 70%;
+        // background-color: #84ab32;
+        // height: 20px;
+        color: #646665;
+
+        .speciality {
+          text-align: justify;
+          img {
+            height: 20px;
+            width: 20px;
+            object-fit: cover;
+          }
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          // justify-content: center;
+        }
+
+        .experience {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          img {
+            height: 20px;
+            width: 20px;
+            object-fit: cover;
+          }
+        }
+
+        .language {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          img {
+            height: 20px;
+            width: 20px;
+            object-fit: cover;
+          }
+        }
+      }
+      .consult {
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        // background-color: red;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .video {
+          width: 150px;
+          border: 2px solid rgb(189, 199, 184);
+          border-radius: 10px;
+
+          .text {
+            text-align: center;
+            color: #3c3c3c;
+          }
+
+          .amount {
+            text-align: center;
+            color: #3a643b;
+          }
+        }
+
+        .chat {
+          width: 150px;
+          border: 2px solid rgb(189, 199, 184);
+          border-radius: 10px;
+
+          .text {
+            text-align: center;
+            color: #3c3c3c;
+          }
+
+          .amount {
+            text-align: center;
+            color: #3a643b;
+          }
+        }
+      }
+
+      .profile{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+     border: 2px solid green;
+     background-color: #fff;
+     color : #3A643B;
+     margin-bottom: 10px;
+      }
+
+      .book{
+        // border: 2px solid green;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        background-color:#3A643B;
+        color : white
+      }
+    }
+  }
+}

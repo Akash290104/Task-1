@@ -1,0 +1,70 @@
+
+.container{
+  position: absolute;
+width: 1440px;
+height: 94px;
+left: 0px;
+top: 0px;
+background: #FFF7E2;
+
+  .content{
+    display: flex;
+position: absolute;
+width: 1232px;
+height: 56px;
+top: 23px;
+left: 104px;
+// justify-content: center;
+align-items: center;
+// flex-direction: row;
+// padding: 0px;
+gap: 266px;
+
+// background-color: #dc4d4d;
+  .first{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(1, 105, 1);
+  }
+
+  .links{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+  }
+  .buttons{
+    display: flex;
+    gap: 10px;
+
+    .login{
+      button{
+        font-size: 15px;
+        color: green;
+        border-radius: 10px;
+        border : 2px solid green;
+        padding: 10px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .signup{
+      button{
+        font-size: 15px;
+        border-radius: 10px;
+        color: white;
+        padding: 10px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: green
+      }
+    }
+
+  }
+  }
+}
+
+
+
